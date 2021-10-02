@@ -35,7 +35,7 @@ class BaseController extends Controller
      *
      * @var array
      */
-    protected $helpers = [];
+	protected $helpers = ['auth', 'text', 'myfungsi', 'form', 'url'];
 
     /**
      * Constructor.
@@ -48,5 +48,9 @@ class BaseController extends Controller
         // Preload any models, libraries, etc, here.
 
         // E.g.: $this->session = \Config\Services::session();
+        $this->db = \Config\Database::connect();
+		$this->session = \Config\Services::session();
+		$this->req = \Config\Services::request();
+		$this->validation = \Config\Services::validation();
     }
 }

@@ -236,7 +236,7 @@
 
 
   <!-- CONTENT -->
-
+  <h1>Data Peserta KKN - UNDIP</h1>
   <section>
 
     <?php foreach ($rec as $r) {

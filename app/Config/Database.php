@@ -31,7 +31,7 @@ class Database extends Config
      * @var array
      */
     public $default = [
-        'DSN'      => 'MySQLi://doadmin:geBRqY0iYpTxmS6B@db-mysql-devops-do-user-1025875-0.b.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED',
+        'DSN'      => 'MySQLi://doadmin:geBRqY0iYpTxmS6B@db-mysql-devops-do-user-1025875-0.b.db.ondigitalocean.com:25060/newexovillage?ssl-mode=REQUIRED',
         'hostname' => '',
         'username' => '',
         'password' => '',

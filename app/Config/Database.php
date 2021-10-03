@@ -31,8 +31,8 @@ class Database extends Config
      * @var array
      */
     public $default = [
-        'DSN'      => '',
-        'hostname' => 'localhost',
+        'DSN'      => 'MySQLi://doadmin:geBRqY0iYpTxmS6B@db-mysql-devops-do-user-1025875-0.b.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED',
+        'hostname' => '',
         'username' => '',
         'password' => '',
         'database' => '',
@@ -45,7 +45,7 @@ class Database extends Config
         'swapPre'  => '',
         'encrypt'  => false,
         'compress' => false,
-        'strictOn' => false,
+        //'strictOn' => false,
         'failover' => [],
         'port'     => 3306,
     ];

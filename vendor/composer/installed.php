@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'e7202fa1499d53bea457556f380c5ca44d859a6f',
+        'reference' => 'd4b8cc205fad3810151b9fe9007cf0b95cc913ea',
         'name' => 'codeigniter4/appstarter',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'e7202fa1499d53bea457556f380c5ca44d859a6f',
+            'reference' => 'd4b8cc205fad3810151b9fe9007cf0b95cc913ea',
             'dev_requirement' => false,
         ),
         'codeigniter4/authentication-implementation' => array(
@@ -146,12 +146,12 @@
             'dev_requirement' => true,
         ),
         'phpdocumentor/type-resolver' => array(
-            'pretty_version' => '1.5.0',
-            'version' => '1.5.0.0',
+            'pretty_version' => '1.5.1',
+            'version' => '1.5.1.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpdocumentor/type-resolver',
             'aliases' => array(),
-            'reference' => '30f38bffc6f24293dadd1823936372dfa9e86e2f',
+            'reference' => 'a12f7e301eb7258bb68acd89d4aefa05c2906cae',
             'dev_requirement' => true,
         ),
         'phpspec/prophecy' => array(
